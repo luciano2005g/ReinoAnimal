@@ -1,46 +1,30 @@
 package ReinoAnimal;
 
-import java.util.Date;
 
 public class Animal {
-	private String espécie;
+	private String especie;
 	private String sexo;
-	private Date dataNascimento;
+	private String dataNascimento;
+	private static int contador;
 	
-	int contador;
-	
+	public Animal() {
+		setContador();
+	}
+
 	public void comer() {
-		System.out.println("O animal está comendo");
+		System.out.println("O animal está comendo...");
 	}
-	public String perfil(String espécie, String sexo, Date dataNascimento) {
-		return espécie, sexo, dataNascimento;
+	public void perfil() {
+		System.out.println( "especie" + this.especie + "| especie" + this.sexo + "| data nasc" + this.dataNascimento);
 	
-	}
-	private void name() {
-		
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	public String getEspécie() {
-		return espécie;
+	public String getEspecie() {
+		return especie;
 	}
-	public void setEspécie(String espécie) {
-		this.espécie = espécie;
+	public void setEspecie(String espécie) {
+		this.especie = espécie;
 	}
 	public String getSexo() {
 		return sexo;
@@ -48,17 +32,18 @@ public class Animal {
 	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
-	public Date getDataNascimento() {
+	public String getDataNascimento() {
 		return dataNascimento;
 	}
-	public void setDataNascimento(Date dataNascimento) {
+	public void setDataNascimento(String dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
-	public int getContador() {
+	public static int getContador() {
 		return contador;
 	}
-	private void setContador(int contador) {
-		this.contador = contador;
+	public static void setContador() {
+		Animal.contador = Animal.contador + 1;
 	}
+	
 
 }
