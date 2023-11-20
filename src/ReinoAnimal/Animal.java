@@ -38,8 +38,8 @@ public class Animal {
 	public String getEspecie() {
 		return especie;
 	}
-	public void setEspecie(String espécie) {
-		this.especie = espécie;
+	public void setEspecie(String especie) {
+		this.especie = especie;
 	}
 	public String getSexo() {
 		return sexo;

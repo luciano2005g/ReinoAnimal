@@ -58,7 +58,7 @@ public class Principal {
 		e1.setEspecie("coragyps atratus");
 		e1.setSexo("macho");
 		e1.setDataNascimento("3");
-		e1.setAltitude(54);
+		e1.setAltitude("54");
 		e1.comer();
 		e1.perfil();
 		e1.voar();
@@ -67,7 +67,7 @@ public class Principal {
 		e2.setEspecie("Amazona aestiva");
 		e2.setSexo("fêmea");
 		e2.setDataNascimento("10");
-		e2.setAltitude(37);
+		e2.setAltitude("37");
 		e2.comer();
 		e2.perfil();
 		e2.voar();

@@ -7,7 +7,7 @@ package ReinoAnimal;
  */
 
 public class Aereo extends Animal{
-	int altitude;
+	private String altitude;
 	
 	/**
 	 * Metódo que diz que o animal aereo está voar
@@ -29,11 +29,11 @@ public class Aereo extends Animal{
 		System.out.println( "altitude" + this.altitude + "especie" + this.getEspecie() + "sexo" + this.getSexo() + "data" + this.getDataNascimento());
 	}
 
-	public int getAltitude() {
+	public String getAltitude() {
 		return altitude;
 	}
 
-	public void setAltitude(int altitude) {
+	public void setAltitude(String altitude) {
 		this.altitude = altitude;
 	}
 
