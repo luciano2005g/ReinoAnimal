@@ -1,6 +1,12 @@
 package ReinoAnimal;
 
-
+/**
+ * 
+ * classe responsável por gerar um animal
+ * 
+ * @author 20201064010039
+ *
+ */
 public class Animal {
 	private String especie;
 	private String sexo;
@@ -11,15 +17,24 @@ public class Animal {
 		setContador();
 	}
 
+	/**
+	 * Metódo que diz que o animal está comendo
+	 */
 	public void comer() {
 		System.out.println("O animal está comendo...");
 	}
+	/**
+	 * Metódo que mostra o perfíl do animal
+	 */
 	public void perfil() {
-		System.out.println( "especie" + this.especie + "| especie" + this.sexo + "| data nasc" + this.dataNascimento);
+		System.out.println( "especie" + this.especie + "| sexo" + this.sexo + "| data nasc" + this.dataNascimento);
 	
 	}
 	
-	
+	/**
+	 * getters e setters
+	 * @return
+	 */
 	public String getEspecie() {
 		return especie;
 	}
