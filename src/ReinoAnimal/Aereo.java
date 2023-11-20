@@ -22,7 +22,9 @@ public class Aereo extends Animal{
 	public void comer() {
 		System.out.println("O animal ar está comendo");
 	}
-	
+	/**
+	 * Metódo que diz o perfil do animal aereo
+	 */
 	public void perfil() {
 		System.out.println( "altitude" + this.altitude + "especie" + this.getEspecie() + "sexo" + this.getSexo() + "data" + this.getDataNascimento());
 	}
